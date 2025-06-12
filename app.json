@@ -10,6 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
+      "bundleIdentifier": "com.jacktrack.golfapp",
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "JackTrack needs location access to track your golf balls and show your position on the course.",
         "NSLocationAlwaysAndWhenInUseUsageDescription": "JackTrack needs location access to track your golf balls and provide turn-by-turn navigation.",
@@ -18,6 +19,12 @@
       }
     },
     "android": {
+      "package": "com.jacktrack.golfapp",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#22C55E"
+      },
       "permissions": [
         "ACCESS_FINE_LOCATION",
         "ACCESS_COARSE_LOCATION",
